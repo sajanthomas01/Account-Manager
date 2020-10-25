@@ -6,6 +6,7 @@ import {
   getPointBalance,
 } from './app';
 import {getIsActiveBank, getIsManagedBank} from './banks';
+import {getNewCrawlNotification} from './notifications';
 import {
   getBankAccounts,
   getBankBanks,
@@ -21,6 +22,7 @@ import {
   getManagedFriends,
   getManagedValidators,
   getNotifications,
+  getSockets,
   getValidatorAccounts,
   getValidatorBanks,
   getValidatorConfigs,
@@ -50,8 +52,10 @@ export {
   getManagedBanks,
   getManagedFriends,
   getManagedValidators,
+  getNewCrawlNotification,
   getNotifications,
   getPointBalance,
+  getSockets,
   getValidatorAccounts,
   getValidatorBanks,
   getValidatorConfigs,
